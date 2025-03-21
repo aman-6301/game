@@ -8,3 +8,5 @@
 4️⃣ Click the buttons in the exact order they flashed.
 5️⃣ If you get it right, you advance to the next level!
 6️⃣ If you make a mistake, the game ends, and you can restart.
+# link of project
+https://mysimonsaygame.netlify.app/
