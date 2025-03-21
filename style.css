@@ -1,0 +1,92 @@
+body{
+    text-align: center;
+    
+}
+#start-btn {
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f4a261;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+#start-btn:hover {
+    background-color: #e76f51;
+}
+
+#start-btn:active {
+    transform: scale(0.95);
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border:10px solid black;
+    border-radius: 20%;
+    margin: 2rem;
+    display: flex;  /* Enables flexbox */
+    justify-content: center;  /* Centers text horizontally */
+    align-items: center;  /* Centers text vertically */  
+}
+.btn-container{
+    display: flex;
+   justify-content: center;
+   
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+} 
+
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: rgb(86, 12, 234);
+}
+
+.rules {
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 400px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rules h3 {
+    text-align: center;
+    color: #333;
+}
+
+.rules ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.rules li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+
+@media (max-width: 600px) {
+    .btn {
+        height: 120px;
+        width: 120px;
+        font-size: 24px;
+    }
+}
